@@ -1,9 +1,13 @@
 {
   "private": true,
   "name": "electron-redux",
-  "version": "1.5.1",
+  "version": "1.5.4",
   "description": "Using redux in electron",
-  "main": "index.js",
+  "main": "packages/electron-redux/dist/index.js",
+  "types": "packages/electron-redux/dist/index.d.ts",
+  "files": [
+    "packages/electron-redux/dist/**"
+  ],
   "repository": "https://github.com/klarna/electron-redux",
   "author": "Burkhard Reffeling <burkhard.reffeling@klarna.com>",
   "license": "MIT",
